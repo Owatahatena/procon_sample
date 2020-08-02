@@ -25,6 +25,14 @@
         </div>
     </nav>
     <div class="d-flex flex-column-reverse bd-highlight">
+      <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+              <script type="text/javascript" src="bootstrap-clockpicker.min.js"></script>
+              <script>
+                $(function() {
+                $('.clockpicker').clockpicker();
+                });
+              </script>
         <div class="p-2 bd-highlight">
             <h3 class="text-center">朝食の希望時間を入力してください</h3>
             <div class="input-group clockpicker col-sm-2 col-md-offset-5">
@@ -33,15 +41,6 @@
                   <i class="fa fa-clock-o"></i>
                 </span>
               </div>
-
-              <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-              <script type="text/javascript" src="bootstrap-clockpicker.min.js"></script>
-              <script>
-                $(function() {
-                $('.clockpicker').clockpicker();
-                });
-              </script>
         </div>
     </div>
   </body>
